@@ -111,8 +111,8 @@ const emulateMessage = _0x1ffc73 => {
 };
 const EVENT_TYPES = {
   'testMessage': "testMessage",
-  'testSubscriber': "testSubscriber",
   'testVip': "testVip",
+  'testSubscriber': "testSubscriber",
   'testMod': "testMod"
 };
 const switchMessageData = _0x169174 => {
@@ -198,15 +198,15 @@ const messageEvent = _0x1d7b07 => {
 };
 const parseUserType = _0x59768e => {
   const _0x27a117 = _0x59768e.tags;
+  
+  if(_0x59768e.displayName == "EnpyCross" || _0x59768e.displayName == "Mikymac" ){
+	  return "vip2";
+  }
   if (_0x27a117.mod === '1') {
     return "mod";
   }
   if (_0x59768e.tags.badges.split(',').filter(_0x4a8994 => _0x4a8994.split('/')[0] === "vip").length > 0) {
     return "vip";
-  }
-  
-  if(_0x59768e.displayName == "EnpyCross" || _0x59768e.displayName == "Mikymac" ){
-	  return "vip2";
   }
   
   if (_0x27a117.subscriber === '1') {
