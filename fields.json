@@ -1,0 +1,75 @@
+{
+  "testAll": {
+    "type": "button",
+    "label": "Test all messages",
+    "value": "Test all messages",
+    "group": "Test"
+  },
+  "testMessage": {
+    "type": "button",
+    "label": "Test follower/any message",
+    "value": "Test follower message",
+    "group": "Test"
+  },
+  "testSubscriber": {
+    "type": "button",
+    "label": "Test subscriber message",
+    "value": "Test subscriber message",
+    "group": "Test"
+  },
+  "testVip": {
+    "type": "button",
+    "label": "Test vip message",
+    "value": "Test vip message",
+    "group": "Test"
+  },
+  "testMod": {
+    "type": "button",
+    "label": "Test moder message",
+    "value": "Test moder message",
+    "group": "Test"
+  },
+  "messagesLimit": {
+    "type": "number",
+    "label": "Messages limit",
+    "value": 5,
+    "group": "Settings"
+  },
+  "hideAfter": {
+    "type": "number",
+    "label": "Hide after seconds (999 to disable)",
+    "value": 999,
+    "group": "Settings"
+  },
+  "hideCommands": {
+    "label": "Hide lines starting with ! (!command)",
+    "type": "dropdown",
+    "value": "yes",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    },
+    "group": "Settings"
+  },
+  "ignoredUsers": {
+    "label": "Ignored users (comma separated)",
+    "type": "text",
+    "value": "",
+    "group": "Settings"
+  },
+  "widgetName": {
+    "type": "hidden",
+    "value": "Custom widget"
+  },
+  "widgetAuthor": {
+    "type": "hidden",
+    "value": "qusa"
+  },
+  "widgetVersion": {
+    "type": "hidden",
+    "value": "1.0"
+  },
+  "bubbleImg": {
+    "type": "image-input"
+  }
+}
