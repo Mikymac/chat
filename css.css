@@ -166,7 +166,7 @@ body {
   box-sizing: border-box;
   word-break: normal;
   word-wrap: break-word;
-  max-width: 80%;
+  max-width: 604px;
   align-self: flex-start;
 }
 
@@ -259,25 +259,28 @@ body {
   background-image: url("https://cdn.streamelements.com/uploads/01m4v10deg7mba7t1rpkhfn8fw.png");
 }
 
-
-
-
-.vip2 .meta {
-  background: #fd975c;
-}
-
-.vip2 .meta::after {
-  background: #fd975c;
-  left: unset;
-  right: 27px;
+.vip2 .message::before {
+  background-image: linear-gradient(to left, #fd975c , var(--modColLite));
+  box-shadow:
+    inset 0 0 0 4px var(--vipColBord);
 }
 
 .vip2 .message {
-  max-width: 80%;
-  margin-left: 4px;
+  text-shadow: -2px 1px var(--vipColBord);
+}
+
+.vip2 .name::before {
+  background: var(--modColBord);
 }
 
 .vip2 .message::after {
-  left: -4px;
-  background: #fd975c;
+  background-image: url("https://cdn.streamelements.com/uploads/01m4v10dec93rbkwsw9axakzmz.png");
+}
+
+.vip2 .bgname::before {
+  background-image: url("https://cdn.streamelements.com/uploads/01m4v10de67a7dwfsnq94vk0wt.png");
+}
+
+.vip2 .bgname::after {
+  background-image: url("https://cdn.streamelements.com/uploads/01m4v10debdt5wcvxfxnxeh5ts.png");
 }
